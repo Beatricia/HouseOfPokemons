@@ -1,0 +1,19 @@
+.paginationContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.prevButton, .nextButton{
+    margin-top: 25px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 17px;
+    color: #87A96B;
+    font-family: monospace;
+}

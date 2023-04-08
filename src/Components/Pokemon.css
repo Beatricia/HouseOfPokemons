@@ -1,0 +1,36 @@
+.pokeContainer{
+    background-color: lightgrey;
+    display: flex;
+    height: 100px;
+    align-items: flex-start;
+    border-radius: 7px;
+    /*allowing 3 items per row, the calc function will calculate the width of each item based on the available space*/
+    flex-basis: calc(22.00% - 70px);
+    margin: 35px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(100, 97, 220, 0.5);
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+.pokeContainer:hover {
+    filter: brightness(106%);
+}
+
+.pokemonImg{
+    margin-top: -10px;
+    width: 150px;
+    height: 120px;
+}
+
+.pokemonName {
+    font-family: monospace;
+    font-size: 2.5em;
+    margin-left: 10px;
+    color: #87A96B;
+}
+
+*{
+    margin-left: 22px;
+}
+
