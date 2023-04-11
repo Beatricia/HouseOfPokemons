@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HouseOfPokemons/static/css/main.8e19b89d.css",
+    "main.js": "/HouseOfPokemons/static/js/main.447fb025.js",
+    "index.html": "/HouseOfPokemons/index.html",
+    "main.8e19b89d.css.map": "/HouseOfPokemons/static/css/main.8e19b89d.css.map",
+    "main.447fb025.js.map": "/HouseOfPokemons/static/js/main.447fb025.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e19b89d.css",
+    "static/js/main.447fb025.js"
+  ]
+}
