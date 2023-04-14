@@ -7,7 +7,7 @@ import "./Pokedex.css"
 export default function Pokedex() {
     const [pokemonList, setPokemonList] = useState([]);
     const [selectedPokemon, setSelectedPokemon] = useState(null);
-    const [currentPageUrl, setCurrentPageUrl] = useState(["https://pokeapi.co/api/v2/pokemon?offset=12&limit=12"]);
+    const [currentPageUrl, setCurrentPageUrl] = useState(["https://pokeapi.co/api/v2/pokemon?offset=9&limit=9"]);
     const [prevPageUrl, setPrevPageUrl] = useState([]);
     const [nextPageUrl, setNextPageUrl] = useState([]);
     const [loading, setLoading] = useState(true); // by default the app is loading

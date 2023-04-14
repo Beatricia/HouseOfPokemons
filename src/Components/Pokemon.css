@@ -1,15 +1,14 @@
 .pokeContainer{
     background-color: lightgrey;
     display: flex;
-    height: 100px;
+    padding: 15px 10px;
     align-items: flex-start;
     border-radius: 7px;
     /*allowing 3 items per row, the calc function will calculate the width of each item based on the available space*/
-    flex-basis: calc(22.00% - 70px);
-    margin: 35px;
+    flex-basis: calc(26.66% - 10px);
+    margin: 20px;
     cursor: pointer;
     box-shadow: 0 5px 15px rgba(100, 97, 220, 0.5);
-    padding: 10px 15px;
     justify-content: space-between;
 }
 
@@ -30,7 +29,4 @@
     color: #87A96B;
 }
 
-*{
-    margin-left: 22px;
-}
 

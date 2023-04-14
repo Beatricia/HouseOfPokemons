@@ -9,8 +9,12 @@ a:hover{
 
 .linksDiv{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4em;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-top: 3em;
     font-size: 30px;
+}
+
+*{
+    align-content: space-between;
 }
